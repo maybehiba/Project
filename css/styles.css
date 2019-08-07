@@ -13,4 +13,8 @@ img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
-    }
+}
+img {
+  border-radius: 50%;
+  opacity: 0.75;
+}
