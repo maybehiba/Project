@@ -3,6 +3,11 @@ html, body{
   background-image: url("https://66.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_1280.png");
 }
 img {
+  border-radius: 50%;
+  opacity: 0.75;
+}
+
+img {
     /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
       filter: gray; /* IE5+ */
       -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
@@ -13,8 +18,4 @@ img:hover {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
-}
-img {
-  border-radius: 50%;
-  opacity: 0.75;
 }
