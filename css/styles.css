@@ -9,8 +9,8 @@ img {
       -webkit-transition: all .8s ease-in-out;
     }
 
-    img:hover {
-    filter: none;
-      -webkit-filter: grayscale(0);
-      -webkit-transform: scale(1.01);
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
     }
