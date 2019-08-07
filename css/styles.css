@@ -1,11 +1,10 @@
-html, body{
+body {
   font-family: 'Amatic SC', cursive;
   background-image: url("https://66.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_1280.png");
 }
 
 img {
-  border-radius: 50%;
-  opacity: 0.75;
+  clip-path: circle();
 }
 
 img {
