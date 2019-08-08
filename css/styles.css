@@ -1,0 +1,30 @@
+body {
+  font-family: 'Amatic SC', cursive;
+}
+.background {
+  background-image:
+    linear-gradient(black, black),
+    url("https://66.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_500.png");
+  background-size: cover;
+  background-blend-mode: saturation;
+  background-repeat: repeat;
+  background-size: contain;
+}
+
+img {
+  clip-path: circle();
+}
+
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.001);
+}
+ 
