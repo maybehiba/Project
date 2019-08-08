@@ -1,11 +1,10 @@
 body {
   font-family: 'Amatic SC', cursive;
-  background-image: url("https://66.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_500.png");
 }
 .module {
   background-image:
     linear-gradient(black, black),
-    url(image-to-be-fake-filters.jpg);
+    url("https://66.media.tumblr.com/162cc3dfa5cef6c882aba5453445f0fb/tumblr_mx3y1yYFad1qcm0eto1_500.png");
   background-size: cover;
   background-blend-mode: saturation;
 }
