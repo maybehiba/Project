@@ -7,39 +7,75 @@
   <link rel="stylesheet" href="./css/styles.css">
 </head>
 
-<div>
-  <div class="container">
-  <img src="https://en.vogue.me/wp-content/uploads/2019/07/ariana-grande-givenchy-fb.jpg" alt="Ariana Grande" height="500">
-  <p class="title">card title</p>
-  <div class="overlay"></div>
-  <div class="button"><a href="#"> Learn More </a></div>
+<body class='background'>
+  <div class='container'>
+    <div class="grid">
+
+      .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      }
+
+      .button {
+      position: absolute;
+      width: 500px;
+      left:0;
+      text-align: center;
+      background: none;
+      border: none;
+      transition: opacity .35s ease;
+      transform: translate(-50%, 50%);
+      }
+
+      .button a {
+      width: 200px;
+      padding: 12px 48px;
+      text-align: center;
+      color: white;
+      border: solid 2px white;
+      z-index: 1;
+      }
+
+      <div class="grid-tile">
+        <img src="./cropped/ariana-grande.jpg" alt="Ariana Grande">
+        <button class="button"><a href="https://www.google.com">Ariana Grande</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/billie-eilish.jpg" alt="Billie Eilish">
+        <button class="button"><a href="https://www.google.com">Billie Eilish</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/camila-cabello.jpg" alt="Camila Cabello">
+        <button class="button"><a href="https://www.google.com">Camila Cabello</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/wp4285561.jpg" alt="Taylor Swift">
+        <button class="button"><a href="https://www.google.com">Taylor Swift</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/ca5Mb8u.jpg" alt="Beyonce">
+        <button class="button"><a href="https://www.google.com">Beyonce</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/39032.jpg" alt="Selena Gomez">
+        <button class="button"><a href="https://www.google.com">Selena Gomez</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/halsey-glamour.jpg" alt="Halsey">
+        <button class="button"><a href="https://www.google.com">Halsey</a></button>
+      </div>
+
+      <div class="grid-tile">
+        <img src="./cropped/3bad648b.jpg" alt="Anne Marie">
+        <button class="button"><a href="https://www.google.com">Anne Marie</a></button>
+      </div>
+    </div>
   </div>
-</div>
-
-<div>
-  <img src="https://assets.pukkelpop.be/images/band-detail/0aa8472168a9-billieeilishweb.jpg" alt="Billie Eilish" height="500">
-</div>
-
-<div>
-  <img src="http://hdqwalls.com/wallpapers/camila-cabello-4k-2019-qd.jpg" alt="Camila Cabello" height="500">
-</div>
-
-<div>
-  <img src="https://wallpapercave.com/wp/wp4285561.jpg" alt="Taylor Swift" height="500">
-</div>
-
-<div>
-  <img src="https://wallpapercave.com/wp/ca5Mb8u.jpg" alt="Beyonce" height="500">
-</div>
-
-<div>
-  <img src="https://wallpaperfm.com/img/original/5/a/e/39032.jpg" alt="Selena Gomez" height="500">
-</div>
-
-<div>
-  <img src="http://hdqwalls.com/wallpapers/halsey-glamour-2019-sm.jpg" alt="Halsey" height="500">
-</div>
-
-<div>
-  <img src="https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2019/03/12180550/3bad648b-d49f-4a3c-a86b-c56dbc97c91d.jpg" alt="Anne Marie" height="500">
-</div>
+</body>
