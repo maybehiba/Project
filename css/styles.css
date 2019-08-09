@@ -28,29 +28,36 @@ img:hover {
   border-radius: 50%;
 }
 
-.container {
+.img-container {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.button {
-  position: absolute;
-  width: 500px;
-  left:0;
-  top: 180px;
-  text-align: center;
-  opacity: 0;
-  transition: opacity .35s ease;
+
+.grid-tile .button {
+  background-color: transparent;
+  border: transparent;
 }
 
-.button a {
-  width: 200px;
-  padding: 12px 48px;
+.grid-tile .button a {
+  color: #fff;
+}
+
+.grid-tile .middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
   text-align: center;
-  color: white;
-  border: solid 2px white;
-  z-index: 1;
+}
+
+.grid-tile:hover .middle {
+  border: 1px solid #fff;
+  opacity: 1;
 }
 
 
