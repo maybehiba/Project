@@ -10,39 +10,72 @@
 <body class='background'>
   <div class='container'>
     <div class="grid">
-      
+
+      .container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      }
+
+      .button {
+      position: absolute;
+      width: 500px;
+      left:0;
+      text-align: center;
+      background: none;
+      border: none;
+      transition: opacity .35s ease;
+      transform: translate(-50%, 50%);
+      }
+
+      .button a {
+      width: 200px;
+      padding: 12px 48px;
+      text-align: center;
+      color: white;
+      border: solid 2px white;
+      z-index: 1;
+      }
+
       <div class="grid-tile">
         <img src="./cropped/ariana-grande.jpg" alt="Ariana Grande">
+        <button class="button"><a href="https://www.google.com">Ariana Grande</a></button>
       </div>
-    
+
       <div class="grid-tile">
         <img src="./cropped/billie-eilish.jpg" alt="Billie Eilish">
+        <button class="button"><a href="https://www.google.com">Billie Eilish</a></button>
       </div>
-    
+
       <div class="grid-tile">
         <img src="./cropped/camila-cabello.jpg" alt="Camila Cabello">
+        <button class="button"><a href="https://www.google.com">Camila Cabello</a></button>
       </div>
-    
+
       <div class="grid-tile">
         <img src="./cropped/wp4285561.jpg" alt="Taylor Swift">
+        <button class="button"><a href="https://www.google.com">Taylor Swift</a></button>
       </div>
 
       <div class="grid-tile">
         <img src="./cropped/ca5Mb8u.jpg" alt="Beyonce">
+        <button class="button"><a href="https://www.google.com">Beyonce</a></button>
       </div>
 
       <div class="grid-tile">
         <img src="./cropped/39032.jpg" alt="Selena Gomez">
+        <button class="button"><a href="https://www.google.com">Selena Gomez</a></button>
       </div>
 
       <div class="grid-tile">
         <img src="./cropped/halsey-glamour.jpg" alt="Halsey">
+        <button class="button"><a href="https://www.google.com">Halsey</a></button>
       </div>
-      
+
       <div class="grid-tile">
         <img src="./cropped/3bad648b.jpg" alt="Anne Marie">
+        <button class="button"><a href="https://www.google.com">Anne Marie</a></button>
       </div>
     </div>
   </div>
 </body>
-
